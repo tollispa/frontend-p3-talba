@@ -43,7 +43,8 @@
     return (
         <div className="h-full w-full bg-black relative text-white">
           <h1 className="text-3xl text-green-300 font-bold p-2 h-[100px]" >P3 dagens radio-tablå</h1>
-          <p className="font-bold color-gray-800">Av Tollis Papadopoulos</p>
+          <p className="font-bold text-xl">Datum för tablå: {date} </p>
+          <p className="color-gray-800">Av Tollis Papadopoulos</p>
          <div className="absolute top-5 right-5 hidden sm:block">
          <DatePicker className="text-black rounded font-bold"
       selected={selectedDate}
