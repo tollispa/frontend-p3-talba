@@ -15,7 +15,7 @@
     const [date, setDate] = useState(today)
    
 
-    const url = `http://api.sr.se/api/v2/scheduledepisodes?channelid=164&date=${date}&format=json`
+    const url = `https://api.sr.se/api/v2/scheduledepisodes?channelid=164&date=${date}&format=json`
     useEffect(() => {
         axios.get(url, {
           headers: {
