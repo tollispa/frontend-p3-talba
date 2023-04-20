@@ -59,7 +59,7 @@
         const startTime = startUtc ? new Date(parseInt(startUtc.substr(6))) : null;
         
   return (
-    <p className="border border-gray-300 w-full relative" key={index}>
+    <p className="border-b border-gray-300 rounded m-1 p-1 w-full relative" key={index}>
       <span className="font-bold text-green-400">{program?.program?.name}</span>
       
      <br/><img className="h-[40px] w-[40px] rounded absolute top-0 right-0" alt="/"src={program?.imageurl}></img>
